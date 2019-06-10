@@ -1,0 +1,16 @@
+.row {
+    padding: 15px;
+    margin: 15px;
+    font-family: 'Abel', regular, sans-serif;
+    font: 28px;
+}
+
+#logo {
+    height: 105px;
+    width: 105px;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+}
