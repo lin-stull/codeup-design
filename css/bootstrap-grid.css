@@ -22,7 +22,6 @@
     height: 105px;
     margin-top: -24px;
     margin-left: 31px;
-
 }
 
 .navbar{
@@ -73,7 +72,6 @@
     font-weight: bold;
     font-family: 'Anton', sans-serif;
     text-align: right;
-
 }
 .orange{
     background-color: #EB9D3A;
@@ -192,7 +190,7 @@
 
 
 /*// Extra small devices (portrait phones, less than 576px)*/
-@media (max-width: 575.98px) {
+@media (max-width: 575.99px) {
 
     .container1 {
         margin-bottom: 200px;
@@ -294,7 +292,6 @@
     /*Picture */
     .navbar li:nth-of-type(1) {
         order: 3;
-
     }
 
 
