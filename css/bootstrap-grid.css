@@ -1,8 +1,5 @@
+
 @import url('https://fonts.googleapis.com/css?family=Abel|Anton&display=swap');
-
-
-
-
 .small-circle{
     display: flex;
     flex-wrap: wrap;
@@ -20,52 +17,53 @@
 .background{
     background-color: #F0F0F0;
 }
-.img {
-    display: inline-flex;
-}
 .design-logo{
     width: 105px;
     height: 105px;
-    margin-top: -10px;
+    margin-top: -24px;
     margin-left: 31px;
+
 }
-.bg-light{
-    height: 78px;
+
+.navbar{
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    height: 50px;
 }
 .codeup {
     font-size: 32px;
     font-family: 'Abel', sans-serif;
-    margin-top: 15px;
+    margin-top: -30px;
     margin-right:auto;
-    text-align: center;
 }
 .word{
-    margin-top: 30px;
+    margin-top: -30px;
     margin-right: 30px;
 }
-.web, .from {
+.web, .from{
     font-family: 'Anton', sans-serif;
     text-align: center;
 }
-.web {
+.web{
     font-size: 40px;
 }
-.letter {
+.letter{
     text-align: center;
     margin-top: 31px;
 }
-.container2 {
+.container2{
     margin: 0 40px;
-    width: 100%;
 }
-.container1 {
+.container1{
     background-color: white;
     margin: 20px 0px 40px 0px;
-    width: 100%;
-    text-align: center;
 }
 
-.red {
+
+
+
+.red{
     background-color: #E6563B;
     width: 105px;
     height: 105px;
@@ -75,8 +73,9 @@
     font-weight: bold;
     font-family: 'Anton', sans-serif;
     text-align: right;
+
 }
-.orange {
+.orange{
     background-color: #EB9D3A;
     width: 105px;
     height: 105px;
@@ -87,7 +86,7 @@
     font-family: 'Anton', sans-serif;
     text-align: center;
 }
-.green {
+.green{
     background-color: #7CB06C;
     width: 105px;
     height: 105px;
@@ -98,7 +97,7 @@
     font-family: 'Anton', sans-serif;
     text-align: center;
 }
-.teal {
+.teal{
     background-color: #00ABA9;
     width: 100px;
     height: 100px;
@@ -109,7 +108,8 @@
     font-family: 'Anton', sans-serif;
     text-align: center;
 }
-.small-red {
+
+.small-red{
     background-color: #E6563B;
     color: black;
     width: 18px;
@@ -120,7 +120,7 @@
     text-align: center;
     font-size: 12px;
 }
-.small-orange {
+.small-orange{
     background-color: #EB9D3A;
     color: black;
     width: 18px;
@@ -131,7 +131,7 @@
     text-align: center;
     font-size: 12px;
 }
-.small-green {
+.small-green{
     background-color: #7CB06C;
     color: black;
     width: 18px;
@@ -153,46 +153,192 @@
     text-align: center;
     font-size: 12px;
 }
-.h4 {
+.h4{
     font-weight: bold;
     font-family: 'Anton', sans-serif;
     text-align: center;
 }
-.tweet {
+.tweet{
     font-weight: bold;
 }
-.small-pic {
+.small-pic{
     width: 75px;
     height: 75px;
     margin-right: 10px;
     border: 2px solid #E6E6E6;
 }
+
 .small-pic + span {
     width: calc(100% - 100px);
     height: 100%;
     text-align: left;
+
+
 }
-.picture {
+.picture{
     width: 100%;
     border: 4px solid #E6E6E6;
 }
-.circle {
+.circle{
     display: flex;
     flex-wrap: wrap;
 }
+
+
 .fa.fa-twitter {
     color: #2196F3;
     padding-right: 5px;
 }
 
-/*@media screen and (min-width: 768px) and (max-width: 991px) {*/
 
-/*    #nav {*/
-/*        display: none;*/
-/*    }*/
-/*    .codeup{*/
-/*        text-align: center;*/
-/*    }*/
-/*    */
-/*}*/
+/*// Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
 
+    .container1 {
+        margin-bottom: 200px;
+    }
+
+    .navbar {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        flex-flow: wrap;
+        justify-items: center;
+    }
+
+    .word {
+        padding:0;
+        margin:0;
+    }
+
+    .navbar li {
+        height: 20px;
+        text-align: center;
+        padding-left:0;
+        margin-left: 0;
+        font-size: 24px;
+    }
+
+    .navbar li:nth-of-type(1) {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .navbar li:nth-of-type(2) {
+        width: 100%;
+        height: 80px;
+        margin-top: 50px;
+        font-size: 60px;
+        margin-bottom: 20px;
+    }
+
+    .navbar li:nth-of-type(3),  .navbar li:nth-of-type(4), .navbar li:nth-of-type(5)
+    { margin-right: 18px;}
+
+    .navbar li:nth-of-type(3) {
+        margin-left: auto;
+    }
+
+    .navbar li:nth-of-type(6) {
+        margin-right: auto;
+    }
+    .circle{
+        /*margin-left: 70px;*/
+        /*margin-right: 70px;*/
+        /*margin-right: auto;*/
+    }
+    .red, .orange, .green, .teal{
+        height: 200px;
+        width: 200px ;
+        text-align: center;
+    }
+    .letter{
+        margin-top: 69px;
+        font-size: 40px;
+    }
+    .small-red, .small-orange, .small-green, .small-teal{
+        width: 25px;
+        height: 25px;
+        font-size: 18px;
+    }
+    .feature{
+        font-size: 20px;
+    }
+    .macbook{
+        margin-top: 30px;
+    }
+    .selected{
+        font-size: 30px;
+        text-align: center;
+    }
+
+}
+
+/*// Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767.98px) and (min-width: 576px) {
+
+    .navbar {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        flex-flow: wrap;
+        justify-items: center;
+    }
+
+    .container1 {
+        margin-bottom: 150px;
+    }
+
+
+    /*Picture */
+    .navbar li:nth-of-type(1) {
+        order: 3;
+
+    }
+
+
+    /* Codeup Text*/
+    .navbar li:nth-of-type(2) {
+        order: 6;
+        width: 100%;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+
+    /*Services..*/
+    .navbar li:nth-of-type(3) {
+        order: 1;
+        margin-left: auto;
+    }
+
+    .navbar li:nth-of-type(4) {
+        order: 2;
+    }
+
+    .navbar li:nth-of-type(5) {
+        order: 4;
+    }
+
+    .navbar li:nth-of-type(6) {
+        order: 5;
+        margin-right: auto;
+    }
+
+    .design-logo {
+        margin-left: 0;
+        margin-right: 20px;
+    }
+    .selected{
+        /*font-size: 30px;*/
+        text-align: center;
+    }
+
+}
+
+/*// Medium devices (tablets, less than 992px)*/
+@media (max-width: 991.98px) {  }
+
+/*// Large devices (desktops, less than 1200px)*/
+@media (max-width: 1199.98px) {  }
